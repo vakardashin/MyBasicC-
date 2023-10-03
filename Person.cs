@@ -38,12 +38,12 @@ namespace WinOopApp
         public string GetShortName()
         {
             string shortName = LastName;
-            // char[] fN = FirstName.ToCharArray();
-            char fN = FirstName[0];
-            // char[] mN = MiddleName.ToCharArray();
-            char mN = MiddleName[0];
-            // shortName += " " + fN[0] + "." + mN[0] + ".";
-            shortName += " " + fN + "." + mN + ".";
+            // Берём первую букву FirstName
+            char firstFirstName = FirstName[0];
+            // Берём первую букву MiddleName
+            char firstMiddleName = MiddleName[0];
+            // Формируем строку
+            shortName += " " + firstFirstName + "." + firstMiddleName + ".";
             return shortName;
         }
         
