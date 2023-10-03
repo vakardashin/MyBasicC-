@@ -24,7 +24,8 @@ namespace WinOopApp
             MiddleName = "";
             LastName = lastName;
         }
-
+		
+		// Функция возвращает Имя Отчество Фамилия
         public string GetFullName()
         {
             string fullName = FirstName;
@@ -32,10 +33,7 @@ namespace WinOopApp
             fullName += " " + LastName;
             return fullName;
         }
-
-        
-
-        // Домашняя работа 1_8
+            
         // Функция возвращает Фамилия И.О.
         public string GetShortName()
         {
