@@ -26,13 +26,13 @@ namespace WinOopApp
 
             txtOutput.Text += Environment.NewLine;
             int[] mass = { 2, 3, 15, 7, 11 };
-            int m = 7;
-            printMass(mass, m);
+            int indexelement = 7;
+            printMass(mass, indexelement);
 
             txtOutput.Text += Environment.NewLine;
             int[] mass2 = { 2, 3, 15, 7, 11 };
-            int m2 = 5;
-            printMass2(mass2, m2);
+            int indexelement2 = 5;
+            printMass2(mass2, indexelement2);
 
             // ***********************************************
         }
