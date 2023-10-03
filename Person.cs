@@ -8,13 +8,6 @@ namespace WinOopApp
 {
     public class Person
     {
-        /*
-        public string FirstName;
-        public string MiddleName;
-        public string LastName;
-        */
-
-
         public string FirstName { get; set; }
         public string MiddleName { get; set; }
         public string LastName { get; set; }
